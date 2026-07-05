@@ -1,0 +1,8 @@
+# Direct build dependencies for Pdink.
+# Use Python 3.13 on Windows.
+markitdown[all]==0.1.6
+PyMuPDF
+pytesseract
+Pillow
+PySide6
+PyInstaller

@@ -1,0 +1,41 @@
+# Python virtual environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller and local build output
+build/
+dist/
+release/
+*.spec
+
+# Bundled runtime files are generated locally for releases.
+# Keep only the explanatory README in source control.
+runtime/*
+!runtime/README.md
+
+# Local downloads and archives
+downloads/
+*.zip
+*.7z
+
+# Local backups created during development
+app/*-stable.py
+app/*-before-*.py
+app/*-backup.py
+
+# Test output and logs
+Pdink Files/
+*.log
+
+# Operating-system and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local UI iteration backups
+app/main-backup*.py
