@@ -39,3 +39,6 @@ desktop.ini
 
 # Local UI iteration backups
 app/main-backup*.py
+
+# Local recovery archive
+_recovery/
